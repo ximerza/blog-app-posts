@@ -7,3 +7,4 @@ export DOCKER_CONFIG=/kaniko/.dockerconfig && \
   --dockerfile $(pwd)/Dockerfile \
   --destination $IMAGE_ID:$IMAGE_TAG \
   --force
+
